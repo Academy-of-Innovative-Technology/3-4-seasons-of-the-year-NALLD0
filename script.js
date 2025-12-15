@@ -1,9 +1,9 @@
-var winter;
-var spring;
-var summer;
+var winter = ["December", "January", "February"] ;
+var spring = ["March", "April", "May"];
+var summer ;
 var fall;
 
-var winterImages;
+var winterImages = [];
 var springImages;
 var summerImages;
 var fallImages;
@@ -11,6 +11,8 @@ var fallImages;
 
 
 function displayWinter() {
+	const container = document.querySelector(".winter");
+	container.innerHTML="";
 
 }
 
